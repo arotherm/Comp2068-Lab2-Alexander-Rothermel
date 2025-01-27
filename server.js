@@ -21,7 +21,7 @@ const Lakeside = (req, res) => {
 const index = (req, res)=>{
     if(req.url === '/'){
         res.writeHead(200, {'Content-Type': 'text/html'});
-        res.end('<h1>Welcome to the router</h1> <p>Go to the URL and affix a / at the end with the following options <ul><li>/Niki</li><li>/Kitty</li><li>/Lakeside</li></ul></p>');
+        res.end('<h1>Welcome to the router</h1> <p>Go to the URL and affix a / at the end with the following options <ul><li>/Niki</li><li>/Kitty</li><li>/Lakes</li></ul></p>');
     }
 };
 
